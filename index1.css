@@ -1,0 +1,201 @@
+body{
+    width: 100%;
+    height: 400px;
+    background-image: url('media/photos/background.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    direction: rtl;
+}
+/* מבוא */
+
+/* סרגל */
+
+#ruller-container{
+   display: none;
+}
+
+#ruler{
+    position: absolute;
+    width: 82vw;
+    height: 52vh;
+    right: 15vw;
+    top: 20vh;
+}
+
+#ruler-text{
+    position: absolute;
+    font-family: "avigulBold";
+    color: #303144;
+    font-size: 6.3vmin;
+    width: 70vw;
+    height: 52vh;
+    right: 19vw;
+    padding-right: 1vw;
+    top: 24vh;
+    text-align: center;
+}
+
+/* יצירת קשר */
+#introdaction-container{
+    display: none;
+}
+
+
+#introdaction{
+    position: absolute;
+    width: 70vw;
+    height: 100vh;
+    right: 22vw;
+    top: 5vh;
+}
+
+#introdaction-title{
+    font-family: "avigulBold" ;
+    color: #396c84;
+    font-size: 12vmin;
+    text-align: center;
+}
+
+#line{
+    position: absolute;
+    width: 40vw;
+    height: 0.7vh;
+    background-color: #396c84;
+    border-radius: 5px;
+    text-align: center;
+    right: 14vw;
+    top: 14vh;
+}
+
+#introdaction-text{
+    position: absolute;
+    font-family: "avigulRegular";
+    color: #303144;
+    font-size: 7vmin;
+    text-align: center;
+    top: 17vh;
+    width: 60vw;
+    right: 6vw;
+}
+
+#introdaction-contact{
+    padding: 10vh;
+    position: absolute;
+    font-family: "avigulRegular";
+    color: #303144;
+    font-size: 4vmin;
+    text-align: center;
+    top: 50vh;
+    width: 60vw;
+    right: 1vw;
+}
+
+
+#phone-number{
+    text-decoration: underline;
+}
+
+
+/* פרק ראשון-מושגי יסוד*/
+#opening-screen1{
+    display: none;
+    position: absolute;
+    width: 70vw;
+    height: 80vh;
+    top: 30vh;
+}
+
+#headline-openscreen1{
+    position: absolute;
+    font-family: "avigulBold" ;
+    color: #396c84;
+    font-size: 9.5vmin;
+    text-align: center;
+    top: 7vh;
+    right: 44vw;
+}
+
+#img-openscreen1{
+    position: absolute;
+    width: 52vw;
+    height: 17vh;
+    right: 28vw;
+}
+
+/* כפתורי חזור והמשך */
+
+.Next-button{
+    position: absolute;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 23px;
+    border:4.5px solid #303144;
+    font-family: "avigulBold";
+    color: #303144;
+    font-size: 5.5vmin;
+    top: 77vh;
+    right: 2.5vw;
+    transition: 0.5s;
+    background-color: #f4f6f9;
+    right: 84vw;
+    top: 88vh;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.Back-button{
+    position: absolute;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 23px;
+    border:4.5px solid #303144;
+    font-family: "avigulBold";
+    color: #303144;
+    font-size: 5.5vmin;
+    top: 77vh;
+    right: 2.5vw;
+    transition: 0.5s;
+    background-color: #f4f6f9;
+    right: 15vw;
+    top: 88vh;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.Back-button:hover{
+    cursor: pointer;
+    background-color: #e0f5ff;
+}
+
+.Next-button:hover{
+    cursor: pointer;
+    background-color: #e0f5ff;
+}
+#right-arrows{
+    position: absolute;
+    width: 10vh;
+    height: 4vh;
+    top: 0.7vh;
+}
+
+.text-button-next{
+    position: absolute;
+    right: 2vw;
+}
+
+@font-face {
+    font-family: avigulBold;
+    src: url(media/fonts/avigul-bold-fm.098e37816243b45163715f653.86cd763bc8a25b63e23707da1110b42d.woff2);
+  }
+
+  
+@font-face {
+    font-family: avigulRegular;
+    src: url(media/fonts/avigul-regular-fm.cb107146ee1ea2077c221e.0c9d824a125bac7e0d7aeb30dd7b0cdf.woff2);
+  }
